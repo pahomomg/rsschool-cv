@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pahomomg.github.io/rsschool-cv/cv
