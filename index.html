@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <section class="section">
+          <h1>PAVEL KHOMICH</h1>
+        </section>
+      </div>
+      <div>
+        <section class="section">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#summary" class="nav-link">Summary</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#eduction" class="nav-link">Eductioan</a>
+              </li>
+              <li class="nav-item">
+                <a href="#english" class="nav-link">Egnlish</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section">
+        <img
+          class="section-item"
+          src="assets/img/avatar.jpg"
+          height="300"
+          width="400"
+          alt="my avatar"
+        />
+      </section>
+      <section class="section" id="Contacts">
+        <h2>Contacts</h2>
+        <p class="section-item">Email: khomich001@gmail.com</p>
+        <p class="section-item">Discord: pahom #3488</p>
+        <p class="section-item">
+          Github:
+          <a href="https://github.com/pahomomg" target="_blank">pahomomg</a>
+        </p>
+      </section>
+      <section class="section" id="Summary">
+        <h2>Summary</h2>
+        <p class="section-item">I don't know what can i write here now</p>
+      </section>
+      <section class="section" id="Skills">
+        <h2>Skills</h2>
+        <p class="section-item">
+          I've just started learning this course, know JS a little bit
+        </p>
+      </section>
+      <section class="section" id="Education">
+        <h2>Education</h2>
+        <p class="section-item">
+          I finished Belarussian State University in 2013
+        </p>
+      </section>
+      <section class="section" id="English">
+        <h2>English</h2>
+        <p class="section-item">A2</p>
+      </section>
+      <section class="section" id="Code">
+        <h2>Code</h2>
+        <pre class="section-item">
+const getData = url =>
+ew Promise((resolve, reject) =>
+fetch(url)
+.then(response => response.json())
+.then(json => resolve(json))
+.catch(error => reject(error))
+) 
+getData('https://jsonplaceholder.typicode.com/todos')
+.then(data => console.log(data))
+.catch(error => console.log(error.message))  
+        </pre>
+      </section>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <p class="section-item">
+          At this momemnt my one and only
+          <a href="https://pahomomg.github.io/rsschool-cv/cv" target="_blank">
+            project
+          </a>
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <section class="section">
+          <a href="https://rs.school/" target="_blank">
+            <img
+              class="section-item"
+              src="assets/img/logo.jpg"
+              width="300"
+              height="200"
+              alt="rss logo"
+          /></a>
+        </section>
+        <section class="section">
+          <a href="https://github.com/pahomomg" target="_blank">
+            pahomomg 2022
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
